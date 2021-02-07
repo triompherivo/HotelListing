@@ -35,7 +35,7 @@ namespace HotelListing.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
-            _logger.LogInformation("Weather Forecast Returned");
+            //_logger.LogInformation("Weather Forecast Returned");
         }
     }
 }
